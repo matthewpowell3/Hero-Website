@@ -8,29 +8,19 @@ body {
   overflow: hidden;
 }
 
-#image_container,
-#web_container {
-  position: absolute;
-  top: 0px;
-  bottom: 0px;
-}
-
-#image_container {
-  right: 500px;
-  left: 0px;
+main {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
 }
 
 .website-img {
-  height: 700px;
-  width: 720px;
+  flex: 1;
 }
 
 #web_container {
+  flex: 1;
   background-color: peachpuff;
-  width: 690px;
-  height: 690px;
-  right: 0;
-  left: 689px;
   padding-top: 250px;
   text-align: center;
 }
