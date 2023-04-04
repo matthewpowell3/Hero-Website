@@ -14,8 +14,12 @@ main {
   height: 100vh;
 }
 
-.website-img {
+#image_container {
   flex: 1;
+}
+
+.website-img {
+  width: 100%;
   object-fit: cover;
   object-position: center center;
 }
@@ -25,11 +29,6 @@ main {
   flex: 1;
   background-color: peachpuff;
   text-align: center;
-}
-
-.web_content,
-.horizontal-line {
-  margin: 0px 0px 15px 0px;
 }
 
 .web_content {
