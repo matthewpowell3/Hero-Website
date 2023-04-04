@@ -21,9 +21,9 @@ main {
 }
 
 #web_container {
+  position: relative;
   flex: 1;
   background-color: peachpuff;
-  padding-top: 250px;
   text-align: center;
 }
 
@@ -33,23 +33,52 @@ main {
 }
 
 .web_content {
+  position: absolute;
+  top: 250px;
+  left: 0;
+  right: 0;
+  margin: auto;
   font-size: 11px;
   letter-spacing: 5px;
-  margin: 0px;
-  padding: 0px;
 }
 
 .web_content:hover {
   color: red;
 }
 
+.horizontal-line {
+  position: absolute;
+  top: 263px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
 .web_title {
+  position: absolute;
+  top: 295px;
+  left: 0;
+  right: 0;
+  margin: auto;
   font-family: 'roboto', sans-serif;
   font-size: 38px;
   line-height: 60px;
 }
 
+.horizontal-line-second {
+  position: absolute;
+  top: 470px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
 .author-info {
+  position: absolute;
+  top: 505px;
+  left: 0;
+  right: 0;
+  margin: auto;
   font-size: 15px;
 }
 
